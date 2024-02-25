@@ -50,7 +50,7 @@ const FilterInput = React.memo(({
         setChoosedOptions(new Set(choosedOptions));
         setInputValue('');
         onChangeValue(choosedOptions);
-    }, [onChangeValue]);
+    }, [onChangeValue, choosedOptions]);
 
     return (
         <div className={styles.filterInput}>

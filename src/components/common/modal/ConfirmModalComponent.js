@@ -15,7 +15,7 @@ const ConfirmModalComponent = ({
 
     const handleYesButton = useCallback((e) => {
         onSubmit();
-        hideModal();
+        hideModal(e);
     }, [onSubmit, hideModal]);
 
     return (
