@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-expert-application/static/css/main.62a08eed.css",
-    "main.js": "/react-expert-application/static/js/main.1798224c.js",
+    "main.js": "/react-expert-application/static/js/main.21ea8979.js",
     "static/js/453.83be0eb9.chunk.js": "/react-expert-application/static/js/453.83be0eb9.chunk.js",
     "index.html": "/react-expert-application/index.html",
     "main.62a08eed.css.map": "/react-expert-application/static/css/main.62a08eed.css.map",
-    "main.1798224c.js.map": "/react-expert-application/static/js/main.1798224c.js.map",
+    "main.21ea8979.js.map": "/react-expert-application/static/js/main.21ea8979.js.map",
     "453.83be0eb9.chunk.js.map": "/react-expert-application/static/js/453.83be0eb9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.62a08eed.css",
-    "static/js/main.1798224c.js"
+    "static/js/main.21ea8979.js"
   ]
 }
