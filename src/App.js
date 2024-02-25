@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from 'react';
+import LocalStorageContext from './context/LocalStorageContext';
+import Exercise1 from './containers/Exercise1';
+import Exercise2 from './containers/Exercise2';
+import Exercise3 from './containers/Exercise3';
 
-function App() {
+const App = () => {
+
+  const [localStorage, setLocalStorage] = useState(new Map());
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <LocalStorageContext.Provider value={{ localStorage, setLocalStorage }}>
+      <Exercise1 />
+      <hr />
+      <Exercise2 />
+      <hr />
+      <Exercise3 />
+    </LocalStorageContext.Provider>
   );
 }
 
